@@ -1,0 +1,21 @@
+.container {
+    position: absolute;
+    left: 25vw;
+    right: 25vw;
+    display: flex;
+    flex-direction: row;
+    height: 99vh;
+    width: 50vw;
+    background-color: #a83832;
+    
+    .light {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-color: #15beed;
+        border-radius: 50px;
+        border: 5px solid white;
+        top: 25px;
+        left: 25px;
+    }
+}

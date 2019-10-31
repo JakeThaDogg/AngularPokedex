@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid black;
+    
+    .version {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        span {
+            padding: 4px;
+            margin: 4px;
+            border: 1px solid black;
+            color: white;
+        }
+    }
+    
+    .description {
+        background-color: #fafeff;
+        height: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.container {
+    position: absolute;
+    right: 10px;
+    height: 95%;
+    width: 200px;
+    overflow-y: scroll;
+    background-color: #fafeff;
+    border: 3px solid #141414;
+    margin-top: 18px;
+    color: #141414;
+
+    div {
+        border: 1px solid #747474;
+        text-align: center;
+        font-size: 18px;
+
+        a {
+            text-decoration: none;    
+            color: #141414;
+        }
+    }
+
+}

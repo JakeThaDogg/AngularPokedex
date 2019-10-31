@@ -1,0 +1,18 @@
+.container {
+    position: absolute;
+    background-color: white;
+    width: 25vw;
+    height: 52%;
+    left: 36px;
+    bottom: 30vh;
+    box-shadow: 2px 2px 10px;
+    text-align: center;
+
+    img {
+        left: 25%;
+    }
+
+    .names {
+        margin-top: 15px;
+    }
+}

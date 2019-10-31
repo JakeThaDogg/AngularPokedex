@@ -1,0 +1,12 @@
+<div class="container" *ngIf="pokemon">
+    <div class="name">
+        <h2>{{pokemon.names[6].name}}</h2>
+        <small>{{pokemon.genera[6].genus}}</small>
+    </div>
+    <img [src]="imgUrl" />
+    <div class="names">
+        <p>Nom japonais: {{pokemon.names[1].name}}</p>
+        <p>Nom anglais: {{pokemon.names[3].name}}</p>
+    </div>
+    <app-description [entries]="entriesFR"></app-description>
+</div>

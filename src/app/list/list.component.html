@@ -1,0 +1,5 @@
+<div class="container">
+    <div *ngFor="let pokemon of pokemons; let i = index">
+        <span><a [routerLink]="[pokemon.id]">N° {{ i + 1 }}: {{ pokemon.name | titlecase}}</a></span>
+    </div>
+</div>

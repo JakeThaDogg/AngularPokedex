@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="version">
+        <span *ngFor="let entry of entries" (click)="getEntry(entry.version)">{{entry.version.name}}</span>
+    </div>
+    <div class="description">
+        <p>{{selectedEntry}}</p>
+    </div>
+</div>
